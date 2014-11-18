@@ -1,0 +1,9 @@
+name = SPruit-SPnet
+description = Child theme van SPruit voor SPnet
+package = Other
+version = 0.1
+core = 7.x
+base theme = spruit
+stylesheets[all][] = css/spruit_spnet.css
+
+; regions[quicklinks_top]   = Quick links topbar

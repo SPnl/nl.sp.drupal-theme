@@ -1,0 +1,7 @@
+name = SP Admin
+description = Tweaks of Seven, for SP
+version = 0.1.a
+base theme = seven
+core = 7.x
+
+stylesheets[all][]   = speven.css

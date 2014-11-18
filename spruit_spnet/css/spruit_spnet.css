@@ -1,0 +1,71 @@
+/* Overrides / aanpassingen ten opzichte van Stijn's SPruit-thema */
+
+.primary-content .content .meta,
+.primary-content .crm-container,
+.primary-content .article-content > div
+{
+    display: block;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.site-navigation ul {
+    position: relative;
+}
+
+.site-navigation li a {
+    font-size: 1.4em;
+}
+
+.site-navigation li ul {
+    display: none;
+    position: absolute;
+    bottom: -1em;
+    left: 0;
+    padding: 0 1em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-navigation li:hover ul {
+    display: block;
+}
+
+.site-navigation li ul li {
+    padding: 0 0.6em;
+}
+
+.site-navigation li ul li a {
+    font-size: 1.1em;
+    color: #444;
+    padding: 0;
+}
+
+.main-top-wrapper {
+    position: relative;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.quicklinks-content {
+    float: right;
+}
+
+.breadcrumb ul {
+    border-bottom: none;
+}
+
+.breadcrumb li:before {
+    content: ' > ';
+    color: #aaa;
+}
+
+.breadcrumb li:first-of-type:before {
+    content: ''
+}
+
