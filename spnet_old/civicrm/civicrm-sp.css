@@ -1,0 +1,407 @@
+/* --------------------------------------------------------------------------
+ * SP Civi Theme: CSS om CiviCRM binnen het thema te laten passen.
+ * Dit is op dit moment aanvullend op de default-CSS.
+ * De stylesheet wordt handmatig opgegeven bij 'Custom CSS url' in de settings
+ * omdat dat beter werkt dan hem rechtstreeks vanuit het thema aan te roepen.
+ * kevin@levity.nl, 01/2014
+ * -------------------------------------------------------------------------- */
+
+/* Overflow visible op container */
+
+.page-civicrm #container {
+    overflow: visible !important;
+}
+
+/* Fixes voor sidebar */
+
+#sidebar-left .block {
+    overflow: visible !important;
+}
+
+#crm-recently-viewed li.crm-recently-viewed {
+    border: none;
+    background: none;
+    padding-left: 0px;
+}
+
+.sidebar .block label {
+    color: #333;
+    font-weight: normal;
+}
+
+#crm-recently-viewed a {
+    color: #333;
+    font-size: 1.1em;
+}
+
+#crm-recently-viewed ul li.crm-recently-viewed:hover {
+    background: none !important;
+    border: none !important;
+}
+
+#crm-recently-viewed .crm-recentview-wrapper {
+    position: relative;
+    background: none;
+    border: none;
+    right: inherit !important;
+    width: auto;
+    padding-top: 2px;
+}
+
+#crm-recently-viewed .crm-recentview-wrapper a {
+    font-size: 0.9em;
+}
+
+#crm-recently-viewed .crm-recentview-wrapper a:hover {
+    text-decoration: underline !important;
+}
+
+.sidebar .block .crm-container li {
+    padding: 0 12px;
+    background: url('../images/pijltje.png') no-repeat 2px 4px;
+}
+
+.sidebar .block .crm-container li:hover {
+    background-color: transparent !important;
+}
+
+.sidebar .block .crm-container li a:hover {
+    background-color: transparent !important;
+    color: #f66;
+}
+
+/* Hide default footer */
+
+.crm-footer {
+    display: none;
+}
+
+/* Widgets op dashboard (met compacter nieuws) */
+
+#crm-container .column {
+    padding-bottom: 50px !important;
+}
+
+#crm-container .column-0 {
+    width: 65% !important;
+}
+
+#crm-container .column-1 {
+    width: 35% !important;
+}
+
+#crm-container .widget-content {
+    padding: 0.5em 0 !important;
+}
+
+#crm-container li.widget {
+    min-height: 75px !important;
+}
+
+#crm-container .widget-controls {
+    background-color: #f00 !important;
+    padding: 2px 0px !important;
+}
+
+#crm-container .widget-header {
+    background-color: #f00 !important;
+    color: #fff !important;
+    font: bold 10px Verdana, sans-serif !important;
+    text-transform: uppercase !important;
+}
+
+.crm-container .help, .crm-container #help {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #666;
+}
+
+.crm-container .status {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+}
+
+.crm-container h4 {
+    font-family: Verdana, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.crm-container h3.nobackground, .crm-container .crm-form-block h3 {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.crm-container .content p, .crm-container .help p, .crm-container .help > div {
+    font-size: 12px;
+    display: block;
+    padding: 0;
+    margin: 4px;
+}
+
+.crm-container th {
+    background-color: #666;
+    color: #f5f6f1;
+}
+
+#civicrm-blog-feed .crm-accordion-header {
+    background-color: #f9f9f9 !important; /* nieuws op de voorpagina iets minder dominant */
+    color: #3e3e3e;
+    border: 1px solid #eee;
+}
+
+#civicrm-blog-feed .help {
+    border: 1px solid #eee;
+    border-top: 0;
+}
+
+/* Custom search widget */
+
+.crm-container .spqs-id {
+    width: 90px !important;
+    background: none !important;
+    padding: 3px 4px !important;
+}
+
+.crm-container .spqs-name, .crm-container .spqs-postcode, .crm-container .spqs-email {
+    width: 140px !important;
+    background: none !important;
+    padding: 3px 4px !important;
+}
+
+/* Overzichtspagina contact */
+
+#crm-container div.crm-summary-contactname-block {
+    margin-top: 0px;
+}
+
+#crm-container div.crm-summary-display_name {
+    padding: 4px 0px;
+    font-family: Impact, Haettenschweiler, Helvetica, Verdana, Sans-serif;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    font-size: 2.36em;
+    color: #333;
+    font-weight: normal;
+}
+
+#crm-container div.crm-summary-display_name .crm-icon {
+    margin: 8px 8px 0 0;
+}
+
+.crm-container .ui-tabs .ui-tabs-nav, #crm-container div.crm-summary-row {
+    background-color: #f9f9f9;
+}
+
+#crm-container div.crm-summary-display_name .crm-tooltip {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-transform: initial;
+}
+
+/* Formulieren (Nieuwe persoon) */
+
+#crm-container form {
+    overflow: visible;
+}
+
+#crm-container div#printer-friendly {
+    margin: -1em 0 0 0;
+}
+
+.content form label {
+    font-size: 1em !important;
+}
+
+.crm-container .crm-form-block {
+    background: none !important;
+}
+
+.crm-container tr:nth-of-type(odd) {
+    background: none !important;
+}
+
+.crm-container .crm-accordion-header {
+    background-color: #666;
+    padding: 6px 8px 6px 20px;
+}
+
+.crm-container .crm-accordion-header:hover, .crm-container .crm-accordion-header.active, .crm-container .crm-accordion-header.active:hover {
+    background-color: #444;
+}
+
+.crm-container .crm-accordion-body {
+    padding-left: 10px;
+}
+
+.crm-container .crm-accordion-wrapper {
+    margin-bottom: 10px;
+}
+
+.crm-container .crm-master-accordion-header.crm-accordion-header:hover, .crm-container .crm-collapsible .collapsible-title:hover {
+    color: #000;
+}
+
+/* Mailing verzenden en autocomplete geadresseerden */
+
+.crm-contactEmail-form-block-recipient ul.token-input-list-facebook { 
+	width: 600px !important; 
+	margin: 5px 0 10px 0 !important; 
+}
+
+li.token-input-token-facebook { 
+	border: 1px solid #aaa !important; 
+	background-color: #efefef !important; 
+	height: 15px !important; 
+	margin: 3px !important; 
+	padding: 4px !important; 
+	font-size: 11px !important; 
+}
+
+li.token-input-token-facebook p { 
+	font-size: 11px; 
+}
+
+li.token-input-input-token-facebook { 
+	padding: 4px !important; 
+	font-size: 11px; 
+}
+
+li.token-input-input-token-facebook input { 
+	font-size: 11px; 
+	line-height: 1.36em; 
+	font-family: Verdana, Arial; 
+	padding: 3px 4px !important; 
+	box-shadow: none; 
+}
+
+.crm-contactEmail-form-block .helpIcon {
+	margin: 10px 45px 10px 0;
+}
+
+#primary .form-textarea {
+	max-width: 835px !important;
+}
+
+/* Admin */
+
+.crm-content-block table.form-layout {
+    width: 100%;
+}
+
+.crm-content-block table.form-layout img.action-icon {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Algemeen */
+
+.content .description {
+    font-size: 0.9em !important;
+    color: #999 !important;
+    padding: 0em 0em 1em 0em !important;
+    margin-top: 0.6em !important;
+    line-height: 1em !important;
+}
+
+/* Tooltips geen Impact Bold... maar wel wit */
+.crm-container div.ui-notify-message h1 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.crm-container div.ui-notify-message p {
+    color: #fff;
+}
+
+.crm-container div.ui-notify-message p.gap {
+    margin: 6px 0px 12px 0px;
+}
+
+.crm-container div.ui-notify-message ul li {
+    padding: 0 0.2em 0.6em 0.2em;
+}
+
+/* Shortcut-tooltip footer */
+.crm-container #access {
+    font-size: 11px;
+    padding-bottom: 0.6em;
+}
+
+/* Onderkop */
+.crm-container h3 {
+    font-size: 20px;
+    background: none;
+    text-transform: none;
+}
+
+/* Geen standaard block-labels */
+.content .crm-container form label {
+    display: inline;
+}
+
+/* Links standaard zwart + underline */
+.crm-container a, .crm-container a:link, .crm-container a:visited {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.crm-container a.helpicon {
+    text-decoration: none;
+}
+
+.crm-container a:hover {
+    color: #f60000;
+}
+
+/* Buttons */
+.crm-container a.button, .crm-container a.button:link, .crm-container a.button:visited, .crm-container input.form-submit, #crm-container input[type=button], #crm-container input.form-submit-inline, #crm-container .crm-button {
+    background: #444;
+    border: 1px solid #333;
+    text-shadow: none;
+    width: auto;
+    font-size: 12px;
+}
+
+.crm-container .crm-button:hover, .crm-container .crm-button:focus, .crm-container input[type=submit]:hover, .crm-container input[type=button]:hover, .crm-container a.button:hover, .crm-container a.button:focus, #crm-container .crm-button:hover {
+    background: #666;
+    border: 1px solid #555;
+}
+
+.crm-container a.button:hover {
+    color: #fff;
+}
+
+.crm-container .button:hover .icon, .crm-container .crm-button:hover .icon, .crm-container .button:hover .delete-icon {
+    /* Icoontjes blijven gewoon wit: */
+    background-image: url("../images/jquery-ui-FFFFFF.png") !important;
+}
+
+#crm-container .crm-button input[type=button], #crm-container .crm-button input.form-submit, #crm-container .crm-button input.form-submit-inline {
+    padding: 2px 5px;
+}
+
+/* Doorklikbalk letters */
+#crm-container div#alpha-filter {
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+#crm-container div#alpha-filter li {
+    color: #999;
+    font-size: 14px;
+}
+
+#crm-container div#alpha-filter a {
+    border-bottom: 1px dotted #333;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Image icons en andere specifieke links niet underlinen */
+#SearchEvent .float-right a, .crm-accordion-header a.crm-close-accordion {
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,18 @@
+/*= Structure 
+--------------------------------------------------------------------------------------------------------*/
+#container { width: 1000px; height: auto;  margin: 0 0 10px 10px; overflow: hidden;}
+#header {width: 770px; overflow: hidden; height: 105px; }
+.sidebar {overflow: hidden;}
+#sidebar-left {width: 135px; float: left; margin: 0; }
+#sidebar-right {width: 215px; float: left; margin: 0; }
+#primary { margin: 0 24px 20px 26px ; padding: 0 0 0 0;  width: 368px; float: left; min-height: 368px; }
+#footer { width: 780px; background: #f00; margin: 0; overflow: hidden; padding: 0; clear: both;}
+#afd-campagnes {width: 180px; position: absolute; top: 0; margin-left: 790px; }
+
+/* Page structural alternatives 
+--------------------------------------------------------------------------------------------------------*/
+.no-sidebars #primary {float: none; margin: 0 0 0 157px; width: 552px;}
+.one-sidebar.sidebar-second #primary {float: left; width: 368px; margin: 0 22px 0 157px; }
+
+.in-maintenance #page { width: 720px; margin: 0 auto; padding: 30px; border: 1px solid #ddd; overflow: hidden; }
+.in-maintenance #content-content { width: 70%; }

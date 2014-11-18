@@ -1,0 +1,4 @@
+.sidebar, #afd-navigatie, #afd-campagnes, .addthis_toolbox, 
+#comments, .interface { display: none; }
+#primary {width: 80%; margin: 0 auto;}
+.content { font-size: 12pt; }
