@@ -6,4 +6,9 @@ core = 7.x
 base theme = spruit
 stylesheets[all][] = css/spruit_spnet.css
 
-; regions[quicklinks_top]   = Quick links topbar
+regions[highlight] = Highlighted content
+regions[content]   = Primary content
+regions[secondary] = Secondary content
+regions[footer]    = Footer content
+regions[search]    = Search
+regions[quicklinks_top]   = Quick links topbar
