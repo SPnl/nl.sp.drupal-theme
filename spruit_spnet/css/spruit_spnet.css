@@ -2,8 +2,8 @@
 
 .primary-content .content .meta,
 .primary-content .crm-container,
-.primary-content .article-content > div
-{
+.primary-content .article-content > div,
+.primary-content .profile {
     display: block;
     max-width: 960px;
     margin-left: auto;
@@ -69,3 +69,43 @@
     content: ''
 }
 
+.login-page .primary-content header .title,
+.login-page .tabs ul,
+.primary-content #user-login,
+.primary-content #splogin-new-form {
+    width: auto;
+    max-width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-page .primary-content {
+    margin-top: 60px;
+}
+
+.login-page .tabs {
+    margin-bottom: 20px;
+}
+
+.login-page .tabs li {
+    margin-right: 10px;
+}
+
+.login-page form label {
+    display: inline-block;
+    width: 150px;
+}
+
+.login-page .description {
+    display: none;
+}
+
+.login-page .form-actions {
+    margin-top: 15px;
+}
+
+.page-wrapper.login-page:after {
+    position: absolute;
+    bottom: 0;
+}
