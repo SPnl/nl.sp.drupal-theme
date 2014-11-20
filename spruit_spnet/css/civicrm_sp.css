@@ -431,6 +431,11 @@ li.token-input-input-token-facebook input {
     text-decoration: none;
 }
 
+/* Diverse fixes */
+#civicrm-menu #crm-qsearch input {
+    color: #333;
+}
+
 /* Image icons en andere specifieke links niet underlinen */
 #SearchEvent .float-right a, .crm-accordion-header a.crm-close-accordion {
     text-decoration: none;

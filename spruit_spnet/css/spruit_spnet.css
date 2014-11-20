@@ -109,3 +109,14 @@
     position: absolute;
     bottom: 0;
 }
+
+.content ul.token-input-list {
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul.token-input-list li:before {
+    width: 0 !important;
+    content: '' !important;
+}
