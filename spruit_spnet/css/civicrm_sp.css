@@ -25,6 +25,15 @@
     display: none;
 }
 
+#crm-container table.report-layout tr {
+   font-size: 14px;
+   font-size: 0.9rem;
+}
+#crm-container table.report-layout .crm-report-instanceList-title {
+   font-size: 16px;
+   font-size: 1rem;
+}
+
 /* Voormalige sidebar, nu gereduceerd tot twee quick links bovenaan */
 
 .quicklinks-content .block {
@@ -191,7 +200,7 @@
 
 #crm-container div.crm-summary-display_name {
     padding: 4px 0px;
-    font-family: Impact, Haettenschweiler, Helvetica, Verdana, Sans-serif;
+    font-family: HelveticaInseratLTPro, Impact, Helvetica, sans-serif;
     text-transform: uppercase;
     line-height: 1.1em;
     font-size: 2em;
