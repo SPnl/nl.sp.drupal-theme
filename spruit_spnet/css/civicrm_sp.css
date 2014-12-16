@@ -180,16 +180,64 @@
 
 /* Custom search widget */
 
-.crm-container .spqs-id {
-    width: 100px !important;
+.crm-container #spqs-form input {
+    border: 1px solid #bbb;
     background: none !important;
     padding: 3px 4px !important;
 }
 
-.crm-container .spqs-name, .crm-container .spqs-postcode, .crm-container .spqs-email {
-    width: 150px !important;
-    background: none !important;
-    padding: 3px 4px !important;
+.crm-container #spqs-form input:focus {
+    border: 1px solid #222;
+}
+
+.crm-container #spqs-id, .crm-container #spqs-streetno {
+    width: 75px !important;
+    margin-right: 7px;
+}
+
+.crm-container #spqs-name, .crm-container #spqs-postcode, .crm-container #spqs-city, .crm-container #spqs-communic {
+    width: 90px !important;
+}
+
+.crm-container #spqs-city {
+    margin-right: 7px;
+}
+
+.crm-container #spqs-spinner {
+    display: none;
+    width: 100%;
+    height: 80px;
+    background: url('../img/ajax-loader.gif') center 30px no-repeat;
+}
+
+.crm-container #spqs-results {
+    display: none;
+    min-height: 50px;
+}
+
+.crm-container #spqs-results p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.crm-container #spqs-results table {
+    border: 0;
+    margin: 10px 0 15px 0;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 14px;
+    line-height: 0.9rem;
+}
+
+.crm-container #spqs-results tr {
+    height: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.crm-container #spqs-results td.spqs-id {
+    align: right;
 }
 
 /* Overzichtspagina contact */
