@@ -1,4 +1,4 @@
-/* Overrides / aanpassingen ten opzichte van Stijn's SPruit-thema */
+/* Overrides of SPruit-thema */
 
 .primary-content .content .meta,
 .primary-content .crm-container,
@@ -120,3 +120,40 @@
     width: 0 !important;
     content: '' !important;
 }
+
+/* Panels: Directions (front-page) */
+
+.primary-content {
+  overflow: hidden;
+}
+
+.directions .primary-content {
+  text-align: center;
+}
+.directions .panel-pane {
+  width:  280px;
+  height: 210px;
+  margin: 1.4em .72em 0 .72em;
+  display: inline-block;
+  padding: .4em;
+  border-bottom: 5px solid #eee;
+  text-align: left;
+  overflow: hidden;
+}
+
+.directions .panel-seperator {
+  display: none;
+}
+
+.directions .pane-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  text-transform: none;
+  font-family: 'HelveticaNeueLTStd-BdCn';
+}
+
+.directions .panel-pane .actions li {
+
+}
+

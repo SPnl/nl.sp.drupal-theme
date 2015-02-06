@@ -497,3 +497,10 @@ li.token-input-input-token-facebook input {
 #SearchEvent .float-right a, .crm-accordion-header a.crm-close-accordion {
     text-decoration: none;
 }
+
+/* JQuery-UI elements die nogal groot zijn door font-size rariteiten */
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button, .ui-dialog-content .description, .ui-dialog-titlebar, .ui-button-text {
+    font-size: 0.7em;
+    line-height: 0.8em;
+}
+
