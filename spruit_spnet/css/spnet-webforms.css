@@ -1,0 +1,15 @@
+/* Mijn gegevens (webform) */
+#webform-client-form-4 .form-item label {
+	width: 120px;
+	display: inline-block; 
+	padding: .32em;
+}
+
+#webform-client-form-4 legend {
+	display: none;
+}
+
+#webform-client-form-4 fieldset {
+	padding: 0;
+	border : none;
+}

@@ -123,7 +123,7 @@
 #crm-container .widget-header {
     background-color: #f00 !important;
     color: #fff !important;
-    font-size: 0.9em !important;
+    font-size: 0.8em !important;
     text-transform: uppercase !important;
     padding: 0 0.7rem !important;
 }
@@ -183,7 +183,8 @@
 .crm-container #spqs-form input {
     border: 1px solid #bbb;
     background: none !important;
-    padding: 3px 4px !important;
+    padding: 3px 3px !important;
+    font-size: 0.85em;
 }
 
 .crm-container #spqs-form input:focus {

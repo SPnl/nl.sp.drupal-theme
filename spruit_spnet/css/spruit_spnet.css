@@ -44,7 +44,7 @@
     padding: 0;
 }
 
-.main-top-wrapper {
+.page-civicrm .main-top-wrapper {
     position: relative;
     max-width: 960px;
     margin-left: auto;
@@ -157,3 +157,7 @@
 
 }
 
+.content iframe.gmap {
+  border:0; 
+  pointer-event: none!important; 
+}

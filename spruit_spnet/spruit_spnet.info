@@ -5,6 +5,8 @@ version = 0.1
 core = 7.x
 base theme = spruit
 stylesheets[all][] = css/spruit_spnet.css
+stylesheets[all][] = css/spnet-panels.css
+stylesheets[all][] = css/spnet-webforms.css
 
 regions[highlight] = Highlighted content
 regions[content]   = Primary content

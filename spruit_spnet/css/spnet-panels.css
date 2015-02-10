@@ -1,0 +1,168 @@
+/* Panels: Directions (front-page) */
+
+.primary-content {
+  overflow: hidden;
+}
+
+.directions .primary-content {
+  text-align: center;
+}
+.directions .panel-pane {
+  width:  280px;
+  height: 240px;
+  margin: 1.4em .72em 0 .72em;
+  display: inline-block;
+  padding: .4em;
+  border-bottom: 5px solid #eee;
+  text-align: left;
+  overflow: hidden;
+}
+
+.directions .panel-seperator {
+  display: none;
+}
+
+.directions .pane-content {
+	padding: .72em 0 ;
+}
+
+.directions .pane-content p {
+	margin: 0 0 1.4em 0;
+	padding: 0;
+}
+
+.directions .pane-title {
+	margin: 0;
+	padding: 0;
+	font-size: 1.4em;
+	text-transform: none;
+  font-family: 'HelveticaNeueLTStd-BdCn';
+}
+
+.directions .panel-pane li {
+  margin: 0 0 .72em 0;
+  font-size: 1rem;
+}
+
+.directions .panel-pane li a {
+  background: #ddd;
+  padding: .4em .72em;
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-transition-duration: .4s; /* Safari */
+  transition-duration: .4s;
+}
+
+.directions .panel-pane li:nth-of-type(2n) a {
+  background: #bbb;
+}
+
+.directions .panel-pane li a:hover {
+  background: #000;
+  color: #fff !important;
+}
+
+.directions .pane-content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.not-logged-in .introduction {
+	width: 520px;
+}
+
+
+/* Pane variants */
+
+.page-node .pane-node-body .body {
+   max-width: 100%;
+}
+
+.custom-menu {
+    max-width: 960px;
+    margin: 0 auto;
+	overflow: hidden;
+}
+
+.custom-menu .pane-title {
+	color: #f60000;
+	margin: 0;
+	font-family: 'HelveticaNeueLTStd-BdCn';
+	text-transform: none;
+}
+
+.custom-menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+.custom-menu li {
+  display: inline-block;
+}
+
+.custom-menu ul li a{
+	color: #f60000;
+	text-decoration: none;
+	border: 1px solid #f60000;
+	font-family: 'HelveticaNeueLTStd-BdCn';
+	padding: .4em .72em;
+}
+
+.custom-menu ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	font-family: 'HelveticaNeueLTStd-BdCn';
+}
+
+
+/* Book navigation */
+
+.pane-node-book-nav {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.pane-node-book-nav .pane-content {
+	width: 280px;
+	float: right;
+	margin: 0 0 1em 0;
+	padding: 0;
+	margin-left: 1.4em;
+	border-left: .4em solid #ddd;
+}
+
+.pane-node-book-nav .pane-content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 .72em;
+}
+
+.pane-node-book-nav .pane-content li a {
+	font-family: 'HelveticaNeueLTStd-BdCn';
+	font-weight: normal;
+	color: #000;
+	border-bottom: 1px solid #ddd;
+	display: block;
+	padding: .4em .72em;
+}
+
+.pane-node-terms .pane-content {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: HelveticaNeueLTStd-BdCn;
+	color: #aaa;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+
+.pane-node-title h1 {
+  padding: 0;
+  margin: .14em 0;
+}
