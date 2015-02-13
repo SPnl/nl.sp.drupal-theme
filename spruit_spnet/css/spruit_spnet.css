@@ -3,7 +3,8 @@
 .primary-content .content .meta,
 .primary-content .crm-container,
 .primary-content .article-content > div,
-.primary-content .profile {
+.primary-content .profile,
+.primary-content .article {
     display: block;
     max-width: 960px;
     margin-left: auto;
@@ -161,3 +162,48 @@
   border:0; 
   pointer-event: none!important; 
 }
+
+.primary-content .article {
+	border-bottom: .4em solid #eee;
+	padding: 0;
+	margin: 2.1em auto;
+	display: block;
+}
+
+.front .site-navigation .active {
+  color: #ddd;
+}
+
+.primary-content a.important {
+	background: #000; 
+	display: inline-block;
+	padding: .14em .4em;
+	  font-family: 'HelveticaNeueLTStd-BdCn';
+	  color: #fff;
+	  text-decoration: none;
+}
+
+.primary-content a.important:hover {
+	background: #f60000; 
+	padding: .14em .72em;
+}
+
+/* New user page */
+
+.page-user-new .content-header .title {
+	font-size: 1em;
+	color: #aaa;
+}
+
+.page-user-new form h3 {
+	font-size: 2.7em;
+	margin: 0;
+}
+
+
+@media only screen and (min-width: 1420px) { 
+ .primary-content .pane-node-book-nav {
+	   width: 1120px;
+	  }
+}
+

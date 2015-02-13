@@ -443,6 +443,7 @@ li.token-input-input-token-facebook input {
     font-weight: normal;
     font-family: HelveticaNeueLT-Light, sans-serif;
     padding: 4px 8px;
+    text-transform: none;
 }
 
 .crm-container .crm-submit-buttons, .crm-container .action-link {

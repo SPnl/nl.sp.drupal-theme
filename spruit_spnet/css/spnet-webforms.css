@@ -13,3 +13,86 @@
 	padding: 0;
 	border : none;
 }
+
+/* Aanmelden: Lid worden */
+
+#spaanmelden-form-lid .step-title {
+	color: #f60000;
+	margin: 0;
+	padding: 0;
+}
+
+#spaanmelden-form-lid fieldset {
+	border: none;
+	border-bottom: 1px solid #aaa;
+	padding-top: .72em;
+}
+
+#spaanmelden-form-lid legend {
+  margin: 0;
+  padding: 0;
+  font-family: 'HelveticaNeueLTStd-BdCn';
+}
+
+#edit-personal-information label {
+	width: 110px;
+	display: inline-block;
+}
+
+#spaanmelden-form-lid fieldset:last-of-type {
+	border: none;
+}
+
+#spaanmelden-form-lid .form-item-personal-information-middlename input {
+	width: 80px;
+}
+
+#edit-personal-information-gender {
+	padding: .4em;
+}
+
+#spaanmelden-form-lid .form-item-personal-information-gender .form-item {
+	width: 150px;
+	margin: 0;
+	padding: 0 0 .4em 0;
+}
+
+#spaanmelden-form-lid .form-item-personal-information-birthdate label {
+	display: block;
+	width: 960px;
+
+}
+#spaanmelden-form-lid .form-item-personal-information-birthdate .form-item {
+	margin-right: .4em;
+}
+
+#spaanmelden-form-lid .form-item-personal-information-birthdate .form-item label {
+	width: 2em;
+	font-size: .9em;
+	color: #aaa;
+}
+
+#edit-personal-information-birthdate .form-item select {
+	width: 100%;
+	padding: .4em;
+	border: 1px solid #ddd;
+	background: #eee;
+}
+
+#spaanmelden-form-lid .form-item-personal-information-initials label,
+#spaanmelden-form-lid .form-item-personal-information-firstname label,
+#spaanmelden-form-lid .form-item-personal-information-middlename label,
+#spaanmelden-form-lid .form-item-personal-information-lastname label {
+	width: 120px;
+	display: inline-block;
+}
+
+#spaanmelden-form-lid th {
+	text-align: left;
+	padding-right: 1em;
+	width: 180px;
+}
+
+#spaanmelden-form-lid td {
+	vertical-align: top;
+}
