@@ -4,7 +4,30 @@
    http://csswizardry.com/2013/04/shame-css/ 
 */
 
-.page-doe-mee-aanmelden .primary-content {
-	max-width: 960px; 
-	margin: 0 auto;
+#block-views-cursussen-block-1 {
+	pointer-events: none;
+}
+
+.page-aanmelden .spaanmelden-progress ul {
+	list-style: none;
+	padding: 0;
+}
+
+.page-aanmelden .content-header .title {
+	color: #f60000;
+	text-align: center;
+}
+
+.page-aanmelden .main-top-wrapper {
+	display: none;
+}
+
+.page-node-138 #block-views-cursussen-block-1 {
+	pointer-events: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.page-node-138 .pane-node-body {
+	display: none;
 }

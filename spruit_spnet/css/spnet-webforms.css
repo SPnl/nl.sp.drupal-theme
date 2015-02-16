@@ -34,7 +34,7 @@
   font-family: 'HelveticaNeueLTStd-BdCn';
 }
 
-#edit-personal-information label {
+#spaanmelden-form-lid label {
 	width: 110px;
 	display: inline-block;
 }
@@ -67,12 +67,12 @@
 }
 
 #spaanmelden-form-lid .form-item-personal-information-birthdate .form-item label {
-	width: 2em;
+	width: 75px;
 	font-size: .9em;
 	color: #aaa;
 }
 
-#edit-personal-information-birthdate .form-item select {
+#spaanmelden-form-lid .form-item-personal-information-birthdate .form-item select {
 	width: 100%;
 	padding: .4em;
 	border: 1px solid #ddd;
@@ -87,6 +87,34 @@
 	display: inline-block;
 }
 
+#spaanmelden-form-lid .form-item-contact-email label,
+#spaanmelden-form-lid .form-item-contact-phone label,
+#spaanmelden-form-lid .form-item-contact-phone-mobile label,
+#spaanmelden-form-lid .form-item-address-country label,
+#spaanmelden-form-lid .form-item-address-housenumber label,
+#spaanmelden-form-lid .form-item-address-housenumber-suffix label,
+#spaanmelden-form-lid .form-item-address-street label,
+#spaanmelden-form-lid .form-item-address-housenumber-suffix label,
+#spaanmelden-form-lid .form-item-address-city label,
+#spaanmelden-form-lid .form-item-address-zipcode label {
+	width: 172px;
+	display: inline-block;
+}
+
+#spaanmelden-form-lid .form-item-address-zipcode input {
+	width: 120px;
+}
+
+#spaanmelden-form-lid .form-item-rood-rood label {
+	width: 50%;
+}
+
+#spaanmelden-form-lid .form-disabled input {
+	border: 1px dashed #aaa;
+	background: #fff;
+}
+
+
 #spaanmelden-form-lid th {
 	text-align: left;
 	padding-right: 1em;
@@ -96,3 +124,56 @@
 #spaanmelden-form-lid td {
 	vertical-align: top;
 }
+
+@media only screen and (max-width: 480px) {
+	.page-aanmelden .primary-content p{
+		padding: 0 1em;
+	}
+
+	.page-aanmelden .content-header .title {
+		color: #f60000;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page-aanmelden .step-title {
+		font-size: .9em;
+	}
+
+	.page-aanmelden .breadcrumb {
+		display: none;
+	}
+
+	.page-aanmelden #spaanmelden-form-lid .form-wrapper {
+		width: 90%;
+		max-width: 90%;
+		min-width: 90%;
+		padding: 0; 
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.page-aanmelden #spaanmelden-form-lid input,
+	.page-aanmelden #spaanmelden-form-lid select {
+		max-width: 93%;
+		margin: 0 auto;
+	}
+
+
+
+	.page-aanmelden #spaanmelden-form-lid .form-submit {
+		width: 72%;
+		margin: .72em auto;;
+		display: block;
+		padding: .72em
+	}
+
+	.messages li {
+		font-size: 1em;
+	}
+
+	.messages .message {
+ 		padding: .1em 1.4em;
+	}
+}
+

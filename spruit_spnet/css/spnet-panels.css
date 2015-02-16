@@ -74,10 +74,10 @@
 .directions .content-width {
 	height: auto;
 	max-width: 960px;
-	width: 100%;
+	width: 70%;
 	display: block;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 4%;
 	border: none;
 	border-bottom: .4em solid #ddd;
 	text-align: center;
@@ -85,9 +85,11 @@
 }
 
 .not-logged-in .introduction {
-	width: 520px;
+	min-width: 300px;
+	width: 50%;
+	max-width: 520px;
+	height: auto;
 }
-
 
 /* Pane variants */
 
@@ -213,3 +215,25 @@
 	vertical-align: middle;
 }
 
+@media only screen and (max-width: 480px) {
+	.directions .panel-pane {
+		height: auto;
+	}
+
+	.pane-node-terms .pane-content {
+		padding: 0 1.4em; 
+	}
+
+	.pane-node-book-nav .pane-content {
+	  width: 280px;
+	  float: none;
+	  margin: .4em;
+	  border: none;
+	}
+
+	.pane-node-book-nav .pane-content li {
+		padding: 0;
+		margin: 0;
+		font-size: 1em;
+	}
+}

@@ -81,10 +81,6 @@
     margin-right: auto;
 }
 
-.login-page .primary-content {
-    margin-top: 60px;
-}
-
 .login-page .tabs {
     margin-bottom: 20px;
 }
@@ -200,10 +196,23 @@
 	margin: 0;
 }
 
+/* Mobile */
+@media only screen and (max-width: 420px) { 
+	.login-page .primary-content {
+		padding: 0;
+	}
+	.login-page .primary-content header .title {
+		font-size: 1.4em;
+	}
+	.login-page .primary-content form {
+		max-width: 280px;
+	}
+}
+
+/* Large screens */
 
 @media only screen and (min-width: 1420px) { 
  .primary-content .pane-node-book-nav {
 	   width: 1120px;
 	  }
 }
-
