@@ -317,6 +317,12 @@
     color: #000;
 }
 
+/* Inschrijfformulier events: register-different hiden */
+
+.crm-event-register-form-block #crm-event-register-different {
+    display: none;
+}
+
 /* Mailing verzenden en autocomplete geadresseerden */
 
 .crm-contactEmail-form-block-recipient ul.token-input-list-facebook {
