@@ -42,16 +42,17 @@
 }
 
 .directions .panel-pane li {
-	margin: 0 0 .72em 0;
+	margin: 0 0 .14em 0;
 	font-size: 1rem;
 }
 
 .directions .panel-pane li a {
 	background: #ddd;
-	padding: .4em .72em;
+	padding: .32em .72em;
 	font-family: 'HelveticaNeueLTStd-BdCn';
 	text-decoration: none;
 	font-weight: normal;
+	display: inline-block;
 	-webkit-transition-duration: .4s; /* Safari */
 	transition-duration: .4s;
 }
@@ -88,7 +89,6 @@
 	min-width: 300px;
 	width: 50%;
 	max-width: 520px;
-	height: auto;
 }
 
 /* Pane variants */
@@ -215,7 +215,7 @@
 	vertical-align: middle;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 728px) {
 	.directions .panel-pane {
 		height: auto;
 	}
@@ -225,10 +225,10 @@
 	}
 
 	.pane-node-book-nav .pane-content {
-	  width: 280px;
-	  float: none;
-	  margin: .4em;
-	  border: none;
+		width: 280px;
+		float: none;
+		margin: .4em;
+		border: none;
 	}
 
 	.pane-node-book-nav .pane-content li {

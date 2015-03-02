@@ -326,6 +326,7 @@
 
 li.token-input-token-facebook {
     border: 1px solid #aaa !important;
+    color: #333 !important;
     background-color: #efefef !important;
     height: 15px !important;
     margin: 3px !important;

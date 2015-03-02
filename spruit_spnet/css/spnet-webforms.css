@@ -125,6 +125,11 @@
 	vertical-align: top;
 }
 
+.page-user-edit #edit-account label {
+	width: 110px;
+	display: inline-block;
+}
+
 @media only screen and (max-width: 480px) {
 	.page-aanmelden .primary-content p{
 		padding: 0 1em;

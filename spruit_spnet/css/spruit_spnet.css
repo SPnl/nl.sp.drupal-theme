@@ -196,6 +196,12 @@
 	margin: 0;
 }
 
+/* Edit user page */
+
+.page-user-me-edit .site-footer .active-trail.active {
+	display: none;
+}
+
 /* Mobile */
 @media only screen and (max-width: 420px) { 
 	.login-page .primary-content {
