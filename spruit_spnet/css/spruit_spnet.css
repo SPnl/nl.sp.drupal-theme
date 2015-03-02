@@ -196,12 +196,42 @@
 	margin: 0;
 }
 
+<<<<<<< HEAD
 /* Edit user page */
 
 .page-user-me-edit .site-footer .active-trail.active {
 	display: none;
 }
 
+=======
+/* User edit page */
+
+.page-user-edit .site-footer a[href="/user/me/edit"] {
+	display: none;
+}
+
+.page-user-edit .password-indicator,
+.page-user-edit .password-strength-title {
+ 	display: none;
+}
+
+.page-user-edit .password-confirm .error {
+	background: #f60000;
+	padding: .4em .72em;
+	color: #fff;
+}
+
+.page-user-edit div.password-confirm {
+	padding: .4em 0 1em;
+
+}
+.page-user-edit .password-confirm .ok {
+	background: #5f7;
+	padding: .4em .72em;
+	color: #333;
+}
+
+>>>>>>> 69e9933672e3530296f27217cfb117fd3e95b382
 /* Mobile */
 @media only screen and (max-width: 420px) { 
 	.login-page .primary-content {
