@@ -8,20 +8,6 @@
 	pointer-events: none;
 }
 
-.page-aanmelden .spaanmelden-progress ul {
-	list-style: none;
-	padding: 0;
-}
-
-.page-aanmelden .content-header .title {
-	color: #f60000;
-	text-align: center;
-}
-
-.page-aanmelden .main-top-wrapper {
-	display: none;
-}
-
 .page-node-138 #block-views-cursussen-block-1 {
 	pointer-events: none;
 	margin-top: 0;

@@ -85,7 +85,7 @@
 	background: #eee;
 }
 
-.not-logged-in .introduction {
+.directions.not-logged-in .introduction {
 	min-width: 300px;
 	width: 50%;
 	max-width: 520px;
