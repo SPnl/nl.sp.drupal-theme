@@ -17,3 +17,12 @@
 .page-node-138 .pane-node-body {
 	display: none;
 }
+
+#book-navigation-136 {
+	display: none;
+}
+
+/* Overbodig, onverwijderbaar veld in kraskaarten-formulier */
+.page-node-198 .webform-component--email-adres---telefoonnummer {
+	display: none;
+}
