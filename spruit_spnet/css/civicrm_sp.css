@@ -50,6 +50,10 @@
     display: none;
 }
 
+.quicklinks-content #crm-recently-viewed {
+    position: relative;
+}
+
 .quicklinks-content #crm-recently-viewed-link {
     color: #fff;
 }
