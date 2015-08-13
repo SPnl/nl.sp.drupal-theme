@@ -537,3 +537,13 @@ li.token-input-input-token-facebook input {
 #SP_kenmerken label:after {
     content: '\A';
 }
+
+/* Toolbar lelijk voor non-admins */
+.page-civicrm .toolbar-toggle-processed, .page-civicrm .toolbar-drawer {
+    display: none;
+}
+
+/* Ruimte voor CiviCRM-toolbar voor mensen zonder Drupal toolbar access */
+.page-civicrm:not(.toolbar) header {
+    margin-top: 27px;
+}
