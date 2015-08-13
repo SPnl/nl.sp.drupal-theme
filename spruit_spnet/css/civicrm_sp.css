@@ -521,3 +521,19 @@ li.token-input-input-token-facebook input {
     line-height: 0.8em;
 }
 
+/* Kenmerken edit screen */
+#SP_kenmerken td {
+    padding-bottom: 10px;
+}
+
+#SP_kenmerken label {
+    white-space: pre;
+}
+
+#SP_kenmerken label:before {
+    content: '\a0';
+}
+
+#SP_kenmerken label:after {
+    content: '\A';
+}
