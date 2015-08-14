@@ -522,20 +522,20 @@ li.token-input-input-token-facebook input {
 }
 
 /* Kenmerken edit screen */
-#SP_kenmerken td {
+#SP_kenmerken td, #Actief_SP td {
     padding-bottom: 10px;
 }
 
-#SP_kenmerken label {
-    white-space: pre;
+#SP_kenmerken label, #Actief_SP label {
+    float: left;
+    margin-left: 5px;
 }
 
-#SP_kenmerken label:before {
-    content: '\a0';
-}
-
-#SP_kenmerken label:after {
-    content: '\A';
+#SP_kenmerken input[type=checkbox], #SP_kenmerken input[type=radio], #Actief_SP input[type=checkbox], #Actief_SP input[type=radio] {
+    float: left;
+    display: block;
+    clear: left;
+    margin: 3px 0;
 }
 
 /* Toolbar lelijk voor non-admins */
