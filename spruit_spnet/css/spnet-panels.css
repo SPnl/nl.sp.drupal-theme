@@ -97,6 +97,21 @@
 	max-width: 100%;
 }
 
+/* Highlighted pane */
+
+.directions .highlight {
+	background: #eee;
+}
+.directions .highlight .pane-content {
+	padding: 1.14em;
+}
+.directions .highlight .primary-action {
+	background: #000;
+	color: #fff;
+}
+
+/* Custom menu pane */
+
 .custom-menu {
 	max-width: 960px;
 	margin: 0 auto;
@@ -215,6 +230,8 @@
 	vertical-align: middle;
 }
 
+
+
 @media only screen and (max-width: 728px) {
 	.directions .panel-pane {
 		height: auto;
@@ -237,3 +254,4 @@
 		font-size: 1em;
 	}
 }
+
