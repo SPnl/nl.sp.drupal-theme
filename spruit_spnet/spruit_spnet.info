@@ -8,6 +8,7 @@ stylesheets[all][] = css/spruit_spnet.css
 stylesheets[all][] = css/spnet-panels.css
 stylesheets[all][] = css/spnet-webforms.css
 stylesheets[all][] = css/spnet-sp-aanmelden.css
+stylesheets[all][] = css/spnet-person.css
 stylesheets[all][] = css/shame.css
 
 regions[highlight] = Highlighted content

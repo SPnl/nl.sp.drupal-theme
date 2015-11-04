@@ -1,0 +1,98 @@
+.node-type-spnet-person .content .field-spnet-person-portrait img {
+	float: left;
+	padding-right: 1.4em;
+}
+.node-type-spnet-person .content .field-spnet-person-portrait {
+	margin-top: .4em;
+}
+.panel-2col-stacked {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.panel-2col-stacked h2.pane-title {
+	display: none;
+}
+.view-mode-spnet_kandidaat,
+.kandidaat-placeholder {
+	overflow: hidden;
+	background: #f1f1f1;
+	width: 460px;
+	height: 125px;
+	margin-bottom: 1em !important;
+}
+.kandidaat-placeholder {
+	background: #fafafa;
+}
+.view-mode-spnet_kandidaat .field-spnet-person-portrait {
+	width: 125px;
+	margin: 0;
+}
+.view-mode-spnet_kandidaat .group-left {
+	background: #f00
+	width: 280px;
+	float: left;
+	margin-right: 1em;
+}
+.view-mode-spnet_kandidaat .group-right {
+	overflow: hidden;
+	padding: 1em;
+}
+.view-mode-spnet_kandidaat .field-spnet-person-description {
+	font-size: .9em;
+	margin: 0;
+	padding: 0;
+}
+.view-mode-full .full-name p {
+  font-family: HelveticaInseratLTPro, 'Sans serif';
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.14;
+  padding: 0;
+  font-size: 3.6em;
+  margin: .14em 0 -.14em 0;
+}
+.view-mode-spnet_kandidaat .full-name p {
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.14;
+  padding: 0;
+  margin: .14em 0 .14em 0;
+}
+.field-spnet-person-ref-group {
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	text-transform: uppercase;
+	font-size: 1.14em;
+}
+.pane-content .view-mode-full .field-spnet-person-description {
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	padding: .4em;
+	display: block;
+	color: #888;
+}
+
+.view-id-spnet_person_overview ul {
+	list-style: none;
+		text-align: center;
+}
+
+.view-id-spnet_person_overview ul li {
+		font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+		text-transform:uppercase;
+	display: inline-block;
+	text-align: center;
+	margin: .14em 0em;
+	padding: 0;
+}
+
+.view-id-spnet_person_overview li a {
+	display: inline-block;
+		border: 1px solid #f60000; 
+	padding: .41em;
+}
+
+.view-id-spnet_person_overview li a:hover {
+	background: #000;
+	border: 1px solid #000; 
+	color: #fff;
+}
