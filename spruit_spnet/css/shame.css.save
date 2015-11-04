@@ -1,9 +1,0 @@
-/* Alle vieze, vlugge fixes die nog 
-een keer netjes moeten worden opgelost.
-
-Zie: csswizardry.com/2013/04/shame-css */
-
-.page-doe-mee-aanmelden .primary-conten {
-	max-width: 960px; 
-	margin: 0 auto;
-}
