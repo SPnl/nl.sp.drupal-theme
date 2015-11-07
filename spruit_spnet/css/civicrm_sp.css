@@ -510,6 +510,16 @@ li.token-input-input-token-facebook input {
     color: #333;
 }
 
+.crm-search_builder-accordion h3 {
+    font-size: 1em !important;
+    font-weight: bold !important;
+    margin: 1em 0 !important;
+}
+
+.crm-search_builder-accordion input.submit-link {
+    margin: 0 !important;
+}
+
 /* Image icons en andere specifieke links niet underlinen */
 #SearchEvent .float-right a, .crm-accordion-header a.crm-close-accordion {
     text-decoration: none;
