@@ -1,6 +1,0 @@
-html { background: #fafafa; }
-body { background: #fff; min-height: 60px; border-bottom: 1px dashed #eee; font: 12px Verdana; color: #333; line-height: 1.32; padding: 16px; margin: 5px 10px; width: 368px; }
-body p:first-child { font-weight: bold; }
-p  { margin: 0 0 .5em 0; }
-ul, ol {margin: 0 !important; list-style: square !important;}
-li {margin: 0 !important; padding: 0 !important;}
