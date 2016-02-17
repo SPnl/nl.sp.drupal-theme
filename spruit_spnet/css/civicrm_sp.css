@@ -4,8 +4,21 @@
 
 /* Reset van stijlen van SPruit-thema */
 
+
+.crm-container th,
+.crm-container table.display thead th,
+.crm-container table thead.sticky th,
+.crm-container table.caseSelector tr.columnheader th {
+  background: #eaeaea;
+  border-color: 1px solid #ddd;
+  color: #666;
+  font-size: 12px;
+  padding: .42em .72em;
+  text-align: left;
+  vertical-align: top;
+}
 #crm-container tr {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #crm-container ul li:before {
@@ -36,6 +49,40 @@
 #crm-container table.report-layout .crm-report-instanceList-title {
    font-size: 16px;
    font-size: 1rem;
+}
+#crm-container .crm-pager {
+  font-size: .8em;
+}
+#crm-container .crm-pager-nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Form elements */
+.crm-container select {
+  border: 1px solid #999;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+}
+#crm-container form {
+  max-width: 1180px;
+}
+
+/* Report in block */
+.crm-content-block .report-layout th {
+  background: #fff;
+}
+.crm-content-block .report-layout th h1 {
+  color: #333;
+  margin: 0;
+  padding: .14em 0;
+  font-size: 1.4em;
+}
+
+#crm-container .crm-pager {
+  background: none;
 }
 
 /* Voormalige sidebar, nu gereduceerd tot twee quick links bovenaan */
@@ -271,6 +318,24 @@
 
 .crm-container .ui-tabs .ui-tabs-nav, #crm-container div.crm-summary-row {
     background-color: #f9f9f9;
+}
+
+#crm-container .crm-contact-tabs-list {
+  padding: .4em;
+  background: #fff;
+}
+#crm-container li.crm-tab-button {
+    padding: 0;
+    margin: 2px;
+    background: #eee;
+    font-size: .9em;
+    display: inline-block;
+}
+#crm-container li.crm-tab-button:hover {
+    background: #fafafa;
+}
+#crm-container li.ui-tabs-active {
+    background: #fff;
 }
 
 #crm-container div.crm-summary-display_name .crm-tooltip {
@@ -527,7 +592,7 @@ li.token-input-input-token-facebook input {
 
 /* JQuery-UI elements die nogal groot zijn door font-size rariteiten */
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button, .ui-dialog-content .description, .ui-dialog-titlebar, .ui-button-text {
-    font-size: 0.7em;
+    font-size: 1em;
     line-height: 0.8em;
 }
 
@@ -558,10 +623,13 @@ li.token-input-input-token-facebook input {
   margin-top: 27px;
 }
 
-/* Public event pages */
-.page-civicrm-event-info #printer-friendly {
+/* No print button on most pages */
+.page-civicrm #printer-friendly {
   display: none;
 }
+
+/* Public event pages */
+
 .page-civicrm-event-info .breadcrumb {
   display: none;
 }

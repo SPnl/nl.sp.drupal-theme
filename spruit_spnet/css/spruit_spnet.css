@@ -1,16 +1,21 @@
 /* Overrides of SPruit-thema */
 
 .primary-content .content .meta,
-.primary-content .crm-container,
 .primary-content .article-content > div,
 .primary-content .profile,
 .primary-content .article {
-    display: block;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
+  display: block;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.primary-content .crm-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.4em;
 }
 
 .site-navigation ul {
@@ -47,10 +52,18 @@
 
 .page-civicrm .main-top-wrapper {
     position: relative;
-    max-width: 960px;
+    max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #ddd;
+}
+.page-civicrm .main-top-wrapper .breadcrumb ul {
+  max-width: 1180px;
+}
+
+.page-civicrm header .title {
+  max-width: 1180px;
+  margin-top: 0;
 }
 
 .quicklinks-content {
