@@ -1,4 +1,7 @@
-/* Overrides of SPruit-thema */
+/**
+ * @file
+ * SPnet overrides of the spruit theme.
+ */
 
 .primary-content .content .meta,
 .primary-content .article-content > div,
@@ -11,51 +14,49 @@
   padding-left: 1.4rem;
   padding-right: 1.4rem;
 }
-
 .primary-content .crm-container {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 1.4em;
 }
 
+/* Navigation elements */
 .site-navigation ul {
-    position: relative;
+  position: relative;
 }
-
 .site-navigation li a {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
-
 .site-navigation li ul {
-    display: none;
-    position: absolute;
-    bottom: -1em;
-    left: 0;
-    padding: 0 1em;
-    width: 100%;
-    margin: 0 auto;
+  display: none;
+  position: absolute;
+  bottom: -1em;
+  left: 0;
+  padding: 0 1em;
+  width: 100%;
+  margin: 0 auto;
 }
-
 .site-navigation li:hover ul {
-    display: block;
+  display: block;
 }
-
 .site-navigation li ul li {
-    padding: 0 0.6em;
+  padding: 0 0.6em;
 }
-
 .site-navigation li ul li a {
-    font-size: 1.1em;
-    color: #444;
-    padding: 0;
+  font-size: 1.1em;
+  color: #444;
+  padding: 0;
 }
 
 .page-civicrm .main-top-wrapper {
-    position: relative;
-    max-width: 1180px;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px solid #ddd;
+  position: relative;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.1em;
+  color: #444;
+  padding: 0;
 }
 .page-civicrm .main-top-wrapper .breadcrumb ul {
   max-width: 1180px;
@@ -67,104 +68,42 @@
 }
 
 .quicklinks-content {
-    float: right;
+  float: right;
 }
 
 .breadcrumb ul {
-    border-bottom: none;
+  border-bottom: none;
 }
-
 .breadcrumb li:before {
-    content: ' > ';
-    color: #aaa;
+  content: ' > ';
+  color: #aaa;
 }
-
 .breadcrumb li:first-of-type:before {
-    content: ''
+  content: ''
 }
 
-.login-page .primary-content header .title,
-.login-page .tabs ul,
-.primary-content #user-login,
-.primary-content #splogin-new-form {
-    width: auto;
-    max-width: auto;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.login-page .tabs {
-    margin-bottom: 20px;
-}
-
-.login-page .tabs li {
-    margin-right: 10px;
-}
-
-.login-page form label {
-    display: inline-block;
-    width: 150px;
-}
-
-.login-page .description {
-    display: none;
+.page-user header .title {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .login-page .form-actions {
-    margin-top: 15px;
+  margin-top: 15px;
 }
-
 .page-wrapper.login-page:after {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
+/* Token input */
 .content ul.token-input-list {
-    max-width: auto;
-    margin: 0;
-    padding: 0;
-}
-
-.content ul.token-input-list li:before {
-    width: 0 !important;
-    content: '' !important;
-}
-
-/* Panels: Directions (front-page) */
-
-.primary-content {
-  overflow: hidden;
-}
-
-.directions .primary-content {
-  text-align: center;
-}
-.directions .panel-pane {
-  width:  280px;
-  height: 210px;
-  margin: 1.4em .72em 0 .72em;
-  display: inline-block;
-  padding: .4em;
-  border-bottom: 5px solid #eee;
-  text-align: left;
-  overflow: hidden;
-}
-
-.directions .panel-seperator {
-  display: none;
-}
-
-.directions .pane-title {
+  max-width: auto;
   margin: 0;
   padding: 0;
-  font-size: 1.4em;
-  text-transform: none;
-  font-family: 'HelveticaNeueLTStd-BdCn';
 }
-
-.directions .panel-pane .actions li {
-
+.content ul.token-input-list li:before {
+  width: 0 !important;
+  content: '' !important;
 }
 
 .content iframe.gmap {
@@ -173,34 +112,36 @@
 }
 
 .primary-content .article {
-	border-bottom: .4em solid #eee;
-	padding: 0;
-	margin: 2.1em auto;
-	display: block;
+  border-bottom: .4em solid #eee;
+  padding: 0;
+  margin: 2.1em auto;
+  display: block;
 }
 
 .front .site-navigation .active {
-  color: #ddd;
+  color: #f1f1f1;
+}
+.front .site-navigation:hover .active {
+  color: #f60000;
 }
 
 .primary-content .primary-action {
-	background: #000; 
-	display: inline-block;
-	padding: .14em .4em;
-	  font-family: 'HelveticaNeueLTStd-BdCn';
-	  color: #fff;
-	  text-decoration: none;
+  background: #000; 
+  display: inline-block;
+  padding: .14em .4em;
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  color: #fff;
+  text-decoration: none;
 }
 
 .primary-content .primary-action:hover {
-	background: #f60000; 
+  background: #f60000; 
 }
 
 /* New user page */
-
 .page-user-new .content-header .title {
-	font-size: 1em;
-	color: #aaa;
+  font-size: 1em;
+  color: #aaa;
 }
 
 .page-user-new form h3 {
@@ -209,55 +150,57 @@
 }
 
 /* Edit user page */
-
 .page-user-me-edit .site-footer .active-trail.active {
-	display: none;
+  display: none;
 }
 
 /* User edit page */
-
 .page-user-edit .site-footer a[href="/user/me/edit"] {
-	display: none;
+  display: none;
 }
-
 .page-user-edit .password-indicator,
 .page-user-edit .password-strength-title {
- 	display: none;
+  display: none;
 }
-
 .page-user-edit .password-confirm .error {
-	background: #f60000;
-	padding: .4em .72em;
-	color: #fff;
+  background: #f60000;
+  padding: .4em .72em;
+  color: #fff;
 }
-
 .page-user-edit div.password-confirm {
-	padding: .4em 0 1em;
-
+  padding: .4em 0 1em;
 }
 .page-user-edit .password-confirm .ok {
-	background: #5f7;
-	padding: .4em .72em;
-	color: #333;
+  background: #5f7;
+  padding: .4em .72em;
+  color: #333;
 }
 
-/* Mobile */
+/* CiviCRM */
+.page-civicrm .main-top-wrapper {
+  position: relative;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Media: Mobile */
 @media only screen and (max-width: 420px) { 
-	.login-page .primary-content {
-		padding: 0;
-	}
-	.login-page .primary-content header .title {
-		font-size: 1.4em;
-	}
-	.login-page .primary-content form {
-		max-width: 280px;
-	}
+  .login-page .primary-content {
+    padding: 0;
+  }
+  .login-page .primary-content header .title {
+    font-size: 1.4em;
+  }
+  .login-page .primary-content form {
+   max-width: 280px;
+  }
 }
 
-/* Large screens */
-
+/* Media: Large screens */
 @media only screen and (min-width: 1420px) { 
- .primary-content .pane-node-book-nav {
-	   width: 1120px;
-	  }
+  .primary-content .pane-node-book-nav {
+    width: 1120px;
+  }
 }
