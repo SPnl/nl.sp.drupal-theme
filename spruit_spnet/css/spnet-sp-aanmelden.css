@@ -1,126 +1,120 @@
-/* Maatwerk voor het lidworden formulier (module: nl.sp.drupal-aanmelden) */
-
-.page-aanmelden .spaanmelden-progress ul {
-	list-style: none;
-	padding: 0;
-}
+/**
+ * @file
+ * Styling lidworden formulier (module: nl.sp.drupal-aanmelden) 
+*/
 
 .page-aanmelden .content-header .title {
-	color: #f60000;
-	text-align: center;
+  color: #f60000;
+  text-align: center;
 }
-
+.page-aanmelden .site-navigation a {
+  color: #f1f1f1;
+}
 .page-aanmelden .main-top-wrapper {
-	display: none;
+  display: none;
 }
 
-
-#spaanmelden-form-lid .step-title {
-	color: #f60000;
-	margin: 0;
-	padding: 0;
+/* Form */
+.page-aanmelden .spaanmelden-progress ul {
+  list-style: none;
+  padding: 0;
 }
 
-#spaanmelden-form-lid fieldset {
-	border: none;
-	border-bottom: 1px solid #aaa;
-	padding-top: .72em;
+.page-aanmelden form .step-title {
+  color: #f60000;
+  font-size: 1.14em;
+  margin: 0;
+  padding: 0;
 }
 
-#spaanmelden-form-lid legend {
+.page-aanmelden form {
+  padding: 0 1.4em;
+}
+.page-aanmelden form fieldset {
+  border: none;
+  border-bottom: 3px solid #f1f1f1;
+  padding: 0 .72em 2.1em .72em;
+  overflow: hidden;
+}
+.page-aanmelden form fieldset:last-of-type {
+  border-bottom: none;
+}
+.page-aanmelden form legend {
   margin: 0;
   padding: 0;
   font-family: 'HelveticaNeueLTStd-BdCn';
 }
-
-#spaanmelden-form-lid label {
-	width: 110px;
-	display: inline-block;
+.page-aanmelden form label {
+  display: inline-block;
 }
 
-#spaanmelden-form-lid fieldset:last-of-type {
-	border: none;
-}
-
+/* SP-lid aanmelden specifics */
 #spaanmelden-form-lid .form-item-personal-information-middlename input {
-	width: 80px;
+  width: 80px;
 }
 
 #edit-personal-information-gender {
-	padding: .4em;
+  padding: .4em;
 }
-
-#spaanmelden-form-lid .form-item-personal-information-gender .form-item {
-	width: 150px;
-	margin: 0;
-	padding: 0 0 .4em 0;
+#spaanmelden-form-lid .form-item-personal-information-gender .form-type-radio {
+  display: inline-block;
+  padding: 1em;
+}
+#spaanmelden-form-lid .form-item-personal-information-gender .form-item label {
+  width: 40%;
 }
 
 #spaanmelden-form-lid .form-item-personal-information-birthdate label {
-	display: block;
-	width: 960px;
-
+  display: block;
+  width: 960px;
 }
 #spaanmelden-form-lid .form-item-personal-information-birthdate .form-item {
-	margin-right: .4em;
+  margin-right: .4em;
 }
-
 #spaanmelden-form-lid .form-item-personal-information-birthdate .form-item label {
-	width: 75px;
-	font-size: .9em;
-	color: #aaa;
+  width: 75px;
+  font-size: .9em;
+  color: #aaa;
 }
 
 #spaanmelden-form-lid .form-item-personal-information-birthdate .form-item select {
-	width: 100%;
-	padding: .4em;
-	border: 1px solid #ddd;
-	background: #eee;
+  width: 100%;
 }
 
-#spaanmelden-form-lid .form-item-personal-information-initials label,
-#spaanmelden-form-lid .form-item-personal-information-firstname label,
-#spaanmelden-form-lid .form-item-personal-information-middlename label,
-#spaanmelden-form-lid .form-item-personal-information-lastname label {
-	width: 120px;
-	display: inline-block;
+#spaanmelden-form-lid [class*="form-item-personal-information-"] label {
+  width: 120px;
+  display: inline-block;
+}
+#spaanmelden-form-lid [class*="form-item-contact-"] label,
+#spaanmelden-form-lid [class*="form-item-address-"] label {
+  width: 172px;
+  display: inline-block;
 }
 
-#spaanmelden-form-lid .form-item-contact-email label,
-#spaanmelden-form-lid .form-item-contact-email-confirm label,
-#spaanmelden-form-lid .form-item-contact-phone label,
-#spaanmelden-form-lid .form-item-contact-phone-mobile label,
-#spaanmelden-form-lid .form-item-address-country label,
-#spaanmelden-form-lid .form-item-address-housenumber label,
-#spaanmelden-form-lid .form-item-address-housenumber-suffix label,
-#spaanmelden-form-lid .form-item-address-street label,
-#spaanmelden-form-lid .form-item-address-housenumber-suffix label,
-#spaanmelden-form-lid .form-item-address-city label,
-#spaanmelden-form-lid .form-item-address-zipcode label {
-	width: 172px;
-	display: inline-block;
+#spaanmelden-form-lid .form-item-personal-information-birthdate label{
+  display: block;
+  padding-bottom: .4em;;
 }
 
 #spaanmelden-form-lid .form-item-address-zipcode input {
-	width: 120px;
+  width: 120px;
 }
 
 #spaanmelden-form-lid .form-item-rood-rood label {
-	width: 50%;
+  width: 50%;
 }
 
 #spaanmelden-form-lid .form-disabled input {
-	border: 1px dashed #aaa;
-	background: #fff;
+  border: 1px dashed #aaa;
+  background: #fff;
 }
 
-
 #spaanmelden-form-lid th {
-	text-align: left;
-	padding-right: 1em;
-	width: 180px;
+  text-align: left;
+  padding-right: 1em;
+  width: 180px;
 }
 
 #spaanmelden-form-lid td {
-	vertical-align: top;
+  vertical-align: top;
 }
