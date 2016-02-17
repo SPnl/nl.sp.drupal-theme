@@ -183,9 +183,13 @@
     padding: 0 0.7rem !important;
 }
 
-.crm-container .help, .crm-container #help {
-    background-color: #f9f9f9 !important;
-    border: 1px solid #666;
+#crm-container .help, 
+#crm-container #help {
+  font-size: .9em;
+  padding: 1.14em;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  background: #f1f1f1;
 }
 
 .crm-container .status {
@@ -473,10 +477,6 @@ li.token-input-input-token-facebook input {
     padding: 0 0.2em 0.6em 0.2em;
 }
 
-.crm-container .help, .crm-container #help {
-    font-size: 1em;
-}
-
 /* Shortcut-tooltip footer */
 .crm-container #access {
     font-size: 0.8em;
@@ -635,4 +635,55 @@ li.token-input-input-token-facebook input {
 }
 .page-civicrm-event-info .main-top-wrapper {
   display: none;
+}
+
+/* Styles for Wizard Progress Bars */
+
+#crm-container ul.wizard-bar {
+  border-collapse: collapse;
+  padding: 0;
+  white-space: nowrap;
+  list-style: none;
+  margin: 10px 0px 20px;
+  height: auto;
+  width: auto;
+  line-height: normal;
+  border: none;
+}
+#crm-container ul.wizard-bar li {
+  display: inline-block;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  height: auto;
+  margin: 0;
+  padding: .4em .72em;
+  text-decoration: none;
+  font-size: .95em;
+  background-image: none;
+}
+#crm-container ul.wizard-bar li.current-step {
+  background-color: #888;
+  border-color: #888;
+  color: #fff;
+  font-weight: normal;
+}
+#crm-container ul.wizard-bar li.past-step {
+  background-color: #f00;
+  color: #666;
+}
+#crm-container ul.wizard-bar li.past-step {
+  background-color: #fff;
+  color: #aaa;
+  border-color: #fff;
+}
+
+#crm-container .crm-mailing-settings-form-block h2 {
+  display: none;
+}
+
+.crm-mailing-settings-form-block .messages {
+  background: #fff;
+  display: inline-block;
+  padding: .4em !important;
+  color: #f60000;
 }

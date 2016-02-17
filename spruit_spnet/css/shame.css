@@ -5,21 +5,21 @@
 */
 
 #block-views-cursussen-block-1 {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .page-node-138 #block-views-cursussen-block-1 {
-	pointer-events: none;
-	margin-top: 0;
-	padding-top: 0;
+  pointer-events: none;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .page-node-138 .pane-node-body {
-	display: none;
+  display: none;
 }
 
 #book-navigation-136 {
-	display: none;
+  display: none;
 }
 
 .webform-client-form-373 .webform-component--telefoonnummer label,
@@ -34,21 +34,33 @@
 
 /* Overbodig, onverwijderbaar veld in kraskaarten-formulier */
 .page-node-198 .webform-component--email-adres---telefoonnummer {
-	display: none;
+  display: none;
 }
 
 
 /* Spoedklus styling kandidaten partijbestuur */
 
 .page-congres-kandidaten-partijbestuur .pane-content h2 {
-	color: #f00;
-	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif' !important;
-	text-transform: none;
-	font-size: .9em;
-	padding: 0;
+  color: #f00;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif' !important;
+  text-transform: none;
+  font-size: .9em;
+  padding: 0;
 }
 
 .content .links {
-	max-width: 960px;
-	margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.not-logged-in .primary-action {
+  border: 1px solid #000;
+}
+
+/* Cut the NET from the SP-NET logo */
+.page-aanmelden-lid .site-logo a {
+  display: block;
+  width: 150px;
+  height: 84px;
+  overflow: hidden;	
 }
