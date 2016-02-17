@@ -553,7 +553,18 @@ li.token-input-input-token-facebook input {
     display: none;
 }
 
-/* Ruimte voor CiviCRM-toolbar voor mensen zonder Drupal toolbar access */
+/* CiviCRM-toolbar voor mensen zonder Drupal toolbar */
 .page-civicrm:not(.toolbar) header {
-    margin-top: 27px;
+  margin-top: 27px;
+}
+
+/* Public event pages */
+.page-civicrm-event-info #printer-friendly {
+  display: none;
+}
+.page-civicrm-event-info .breadcrumb {
+  display: none;
+}
+.page-civicrm-event-info .main-top-wrapper {
+  display: none;
 }

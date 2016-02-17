@@ -22,6 +22,16 @@
 	display: none;
 }
 
+.webform-client-form-373 .webform-component--telefoonnummer label,
+.webform-client-form-373 .webform-component--e-mail label,
+.webform-client-form-373 .webform-component--voornaam label,
+.webform-client-form-373 .webform-component--achternaam label
+{
+  width: 128px !important;
+  display: inline-block;
+}
+
+
 /* Overbodig, onverwijderbaar veld in kraskaarten-formulier */
 .page-node-198 .webform-component--email-adres---telefoonnummer {
 	display: none;
