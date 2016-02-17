@@ -4,9 +4,11 @@ package = Other
 version = 0.2
 core = 7.x
 base theme = spruit
+
 stylesheets[all][] = css/spruit_spnet.css
 stylesheets[all][] = css/spnet-panels.css
 stylesheets[all][] = css/spnet-webforms.css
+stylesheets[all][] = css/spnet-books.css
 stylesheets[all][] = css/spnet-sp-aanmelden.css
 stylesheets[all][] = css/spnet-person.css
 stylesheets[all][] = css/shame.css

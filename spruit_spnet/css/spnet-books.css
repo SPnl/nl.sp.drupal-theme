@@ -1,0 +1,27 @@
+/* Book navigation */
+.pane-node-book-nav {
+  width: 960px;
+  margin: 0 auto;
+}
+.pane-node-book-nav .pane-content {
+  width: 280px;
+  float: right;
+  margin: 0 0 1em 0;
+  padding: 0;
+  margin-left: 1.4em;
+  border-left: .4em solid #ddd;
+}
+.pane-node-book-nav .pane-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 .72em;
+}
+.pane-node-book-nav .pane-content li a {
+  font-family: 'HelveticaNeueLTStd-BdCn';
+  font-weight: normal;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding: .4em .72em;
+}
+
