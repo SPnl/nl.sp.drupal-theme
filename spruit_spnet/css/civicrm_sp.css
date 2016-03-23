@@ -60,16 +60,6 @@
 }
 
 
-/* Form elements */
-.crm-container select {
-  border: 1px solid #999;
-  background: #f1f1f1;
-  border: 1px solid #ccc;
-}
-#crm-container form {
-  max-width: 1180px;
-}
-
 /* Report in block */
 .crm-content-block .report-layout th {
   background: #fff;
@@ -353,12 +343,24 @@
 
 /* Formulieren (Nieuwe persoon) */
 
-#crm-container form {
-    overflow: visible;
+/* Form elements */
+#crm-container select {
+  border: 1px solid #999;
+  background: #fff;
+  border: 1px solid #ccc;
 }
+#crm-container form {
+  max-width: 1180px;
+  overflow: visible;
+}
+#crm-container form *:focus { 
 
-.content form label {
-    font-size: 1em !important;
+}
+#crm-container .form-text {
+  padding: .14em;
+}
+#crm-container label {
+  font-size: 1em !important;
 }
 
 .crm-container .crm-form-block {
@@ -686,4 +688,124 @@ li.token-input-input-token-facebook input {
   display: inline-block;
   padding: .4em !important;
   color: #f60000;
+}
+
+
+/* Notifications */
+#crm-notification-container {
+  width: 28vw;
+  position: fixed;
+  top: 52px;
+  right: 1em;
+  z-index: 999999;
+}
+.crm-container div.ui-notify-message {
+  padding: 1.4em;
+  margin-bottom: 15px;
+  color: #eee;
+  border-radius: 2px;
+  max-height: 600px;
+  overflow: auto;
+}
+.crm-container div.ui-notify-message h1 {
+  font-size: 14px;
+  margin: 0;
+  padding: 4px;
+  font-weight: bold;
+  color: #fff;
+}
+.crm-container div.ui-notify-message p {
+  margin: 4px 0;
+  padding: 0;
+  line-height: 18px;
+  font-size: 12px;
+}
+.crm-container div.ui-notify-message li {
+  margin:  0 2em .4em 2em;
+  padding: 0;
+  line-height: 18px;
+  font-size: 14px;
+}
+.crm-container div.ui-notify-message: last-child {
+  margin-bottom: 0;
+}
+.crm-container div.ui-notify-message-style {
+  background: #222;
+  background: rgba(23,23,23,.98);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.crm-container div.ui-notify-message-style a,
+.crm-container div.ui-notify-message-style a:link {
+  color: #CCD0FF;
+  text-decoration: underline;
+}
+.crm-container div.ui-notify-message-style a:hover,
+.crm-container div.ui-notify-message-style a:focus {
+  color: #B2B8FF;
+}
+.crm-container div.ui-notify-message .ui-notify-close {
+  cursor: pointer;
+}
+.crm-container div.ui-notify-message a.ui-notify-cross {
+  margin-top: -18px;
+  margin-right: -11px;
+  float: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: none;
+  padding: 8px;
+  color: #FDFDFD;
+}
+.crm-container div.ui-notify-message .ui-notify-cross:hover,
+.crm-container div.ui-notify-message .ui-notify-cross:focus {
+  color: #000;
+}
+.crm-container div.ui-notify-message table,
+.crm-container div.ui-notify-message tbody,
+.crm-container div.ui-notify-message tr {
+  border: 0 none;
+  font-size: 11px;
+}
+.crm-container div.ui-notify-message td {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid #111;
+  font-size: 11px;
+}
+.crm-container div.ui-notify-message th {
+  background: rgba(200,200,200,0.2);
+  border: 1px solid #111;
+  color: #eee;
+  font-size: 11px;
+}
+.crm-container div.ui-notify-message ul,
+.crm-container div.ui-notify-message ol {
+  margin: 0.5em 0 1em;
+  padding: 0 0 0 0.5em;
+}
+
+.crm-container div.ui-notify-message div.icon,
+.crm-status-icon {
+  background: transparent url("../i/message-icons.png") no-repeat 0 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+.crm-container div.ui-notify-message.success div.icon,
+.crm-status-icon.success {
+  background-position: -24px 0px;
+}
+.crm-container div.ui-notify-message.info div.icon,
+.crm-status-icon.info {
+  background-position: -48px 0px;
+}
+.crm-container div.ui-notify-message.error div.icon,
+.crm-status-icon.error {
+  background-position: -72px 0px;
+}
+
+span.crm-status-icon {
+  display: inline-block;
 }
