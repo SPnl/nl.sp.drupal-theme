@@ -1,0 +1,93 @@
+/* Overides for buurten-in-buurt panel */
+.page-buurten-in-de-buurt .primary-content {
+  padding: 0 1.4rem 0 1.4rem;
+}
+.page-buurten-in-de-buurt .site-header,
+.page-buurten-in-de-buurt .main-top-wrapper,
+.page-buurten-in-de-buurt .article-content .field-item p,
+.page-buurten-in-de-buurt .primary-content .pane-title,
+.page-buurten-in-de-buurt .site-footer,
+.page-buurten-in-de-buurt .links,
+.page-buurten-in-de-buurt .secondary-content,
+.page-buurten-in-de-buurt .toolbar-menu,
+.page-buurten-in-de-buurt .toolbar-drawer {
+  display: none;
+}
+.page-node-379 .site-header,
+.page-node-379 .main-top-wrapper,
+.page-node-379 .article-content .field-item p,
+.page-node-379 .primary-content .pane-title,
+.page-node-379 .site-footer,
+.page-node-379 .links,
+.page-node-379 .secondary-content,
+.page-node-379 .toolbar-menu,
+.page-node-379 .toolbar-drawer {
+  display: none;
+}
+.page-buurten-in-de-buurt .primary-content {
+  max-width: 490px;
+  margin: 0 auto 0 auto;
+}
+.page-node-379 h1,
+.page-buurten-in-de-buurt .webform-client-form-379 h2 {
+  color: #f60000;
+  padding: 0;
+  margin: 0;
+  font-size: 2.5em;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 p {
+  padding: 0 0 1px 0;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 {
+  font-size: 0.82em;
+}
+@media screen and (min-width: 321px){
+  .page-buurten-in-de-buurt .webform-client-form-379 {
+  font-size: 1em;
+  }
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .form-text {
+  display: block;
+  width: 100%;
+  padding: .5em 0 .5em 4px;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 label {
+}
+.page-buurten-in-de-buurt .vertrouwelijk {
+  margin: 25px 0 0 0;
+  color: #009245;
+  font-size: 0.8em;
+  display: block;
+  text-align: center;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .form-actions {
+  margin: 26px auto 0 auto;
+  text-align: center;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .bedankt h2{
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .bedankt p {
+  color: #fff;
+  text-align: center;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .opgeslagen {
+  padding: 0 0 0 0;
+  margin: 50px 0 0 0;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .geef {
+  padding: 0 0 0 0;
+  margin: 25px 0 100px 0;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .form-submit {
+  background: #009245;
+  border: 1px solid #009245;
+  font-size: 1.6em;
+  min-width: 120px;
+}
+.page-buurten-in-de-buurt .webform-client-form-379 .form-submit:hover {
+  background: #009245;
+  border: 1px solid #009245;
+}
