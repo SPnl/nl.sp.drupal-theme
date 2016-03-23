@@ -1,0 +1,6 @@
+[submodule "spruit"]
+	path = spruit
+	url = https://github.com/SPnl/nl.sp.drupal-theme-spruit.git
+[submodule "crispy"]
+	path = crispy
+	url = https://github.com/SPnl/nl.sp.drupal-crispy.git
