@@ -20,6 +20,9 @@
 #crm-container tr {
   font-size: 1.2em;
 }
+.crm-container span.btn-slide {
+    display: inline-block;
+}
 
 #crm-container ul li:before {
     content: '' !important; /* Geen tomaatjes voor willekeurige ul's */
