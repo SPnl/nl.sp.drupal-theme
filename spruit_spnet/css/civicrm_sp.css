@@ -605,20 +605,30 @@ li.token-input-input-token-facebook input {
 }
 
 /* Kenmerken edit screen */
-#SP_kenmerken td, #Actief_SP td {
+form#CustomData .custom-group-SP_kenmerken td,
+form#CustomData .custom-group-Actief_SP td {
     padding-bottom: 10px;
 }
 
-#SP_kenmerken label, #Actief_SP label {
+form#CustomData .custom-group-SP_kenmerken label,
+form#CustomData .custom-group-Actief_SP label {
     float: left;
     margin-left: 5px;
 }
 
-#SP_kenmerken input[type=checkbox], #SP_kenmerken input[type=radio], #Actief_SP input[type=checkbox], #Actief_SP input[type=radio] {
+form#CustomData .custom-group-SP_kenmerken input[type=checkbox],
+form#CustomData .custom-group-SP_kenmerken input[type=radio],
+form#CustomData .custom-group-Actief_SP input[type=checkbox],
+form#CustomData .custom-group-Actief_SP input[type=radio] {
     float: left;
     display: block;
     clear: left;
     margin: 3px 0;
+}
+
+/* Gemeentes op afdelingenkaart bewerk scherm */
+form#CustomData .custom-group-Gemeentes td.html-adjust {
+    min-width: 300px;
 }
 
 /* Toolbar lelijk voor non-admins */
