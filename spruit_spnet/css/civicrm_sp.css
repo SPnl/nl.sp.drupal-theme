@@ -10,12 +10,15 @@
 .crm-container table thead.sticky th,
 .crm-container table.caseSelector tr.columnheader th {
   background: #eaeaea;
-  border-color: 1px solid #ddd;
+  border: 1px solid #ddd;
   color: #666;
   font-size: 12px;
   padding: .42em .72em;
   text-align: left;
   vertical-align: top;
+}
+.crm-container table.dataTable td {
+    word-break: break-all;
 }
 #crm-container tr {
   font-size: 1.2em;
