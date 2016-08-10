@@ -10,7 +10,7 @@
 .crm-container table thead.sticky th,
 .crm-container table.caseSelector tr.columnheader th {
   background: #eaeaea;
-  border-color: 1px solid #ddd;
+  border: 1px solid #ddd;
   color: #666;
   font-size: 12px;
   padding: .42em .72em;
@@ -246,72 +246,6 @@
 #civicrm-blog-feed .help p, #civicrm-blog-feed .help a {
     font-size: 0.8em;
     line-height: 1.2em;
-}
-
-/* Custom search widget */
-
-.crm-container #spqs-form input {
-    border: 1px solid #bbb;
-    background: none !important;
-    padding: 3px 3px !important;
-    font-size: 0.85em;
-}
-
-.crm-container #spqs-form input:focus {
-    border: 1px solid #222;
-}
-
-.crm-container #spqs-id, .crm-container #spqs-streetno {
-    width: 75px !important;
-    margin-right: 7px;
-}
-
-.crm-container #spqs-name, .crm-container #spqs-postcode, .crm-container #spqs-city, .crm-container #spqs-communic {
-    width: 90px !important;
-}
-
-.crm-container #spqs-city {
-    margin-right: 7px;
-}
-
-.crm-container #spqs-spinner {
-    display: none;
-    width: 100%;
-    height: 80px;
-    background: url('../img/ajax-loader.gif') center 30px no-repeat;
-}
-
-.crm-container #spqs-results {
-    display: none;
-    min-height: 50px;
-}
-
-.crm-container #spqs-results p {
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
-}
-
-.crm-container #spqs-results table {
-    border: 0;
-    margin: 10px 0 15px 0;
-    font-size: 12px;
-    font-size: 0.75rem;
-    line-height: 14px;
-    line-height: 0.9rem;
-}
-
-.crm-container #spqs-results tr {
-    height: 0.9rem;
-    overflow: hidden;
-    white-space: nowrap
-}
-.crm-container tr td {
-  overflow: visible !important;
-}
-
-.crm-container #spqs-results td.spqs-id {
-    align: right;
 }
 
 /* Overzichtspagina contact */
@@ -750,7 +684,7 @@ li.token-input-input-token-facebook input {
   line-height: 18px;
   font-size: 14px;
 }
-.crm-container div.ui-notify-message: last-child {
+.crm-container div.ui-notify-message :last-child {
   margin-bottom: 0;
 }
 .crm-container div.ui-notify-message-style {
