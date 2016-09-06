@@ -177,6 +177,13 @@
 }
 
 /* CiviCRM */
+.page-civicrm .primary-content {
+  position: relative;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
 .page-civicrm .main-top-wrapper {
   position: relative;
   max-width: 1180px;
