@@ -762,7 +762,7 @@ form#CustomData .custom-group-Gemeentes td.html-adjust {
 
 .crm-container div.ui-notify-message div.icon,
 .crm-status-icon {
-  background: transparent url("../i/message-icons.png") no-repeat 0 0;
+  background: transparent url("../img/message-icons.png") no-repeat 0 0;
   width: 24px;
   height: 24px;
   margin-right: 6px;
