@@ -1,18 +1,18 @@
 /* Panels: Directions (front-page) */
 
 .directions .primary-content {
-	text-align: center;
+  text-align: center;
 }
 
 .directions .panel-pane {
-	width:  280px;
-	height: 454px;
-	margin: 1em .72em 0 .72em;
-	display: inline-block;
-	padding: .4em;
-	border-bottom: 5px solid #eee;
-	text-align: left;
-	overflow: hidden;
+  width:  280px;
+  height: 380px;
+  margin: 1em .72em 0 .72em;
+  display: inline-block;
+  padding: .4em;
+  border-bottom: 5px solid #eee;
+  text-align: left;
+  overflow: hidden;
 }
 
 .directions .panel-seperator {
@@ -33,12 +33,17 @@
 	padding: 0;
 }
 
-.directions .pane-title {
+.directions .pane-title,
+.directions .panel-pane .pane-content h2 {
 	margin: 0 0 .32em 0;
 	padding: 0;
 	font-size: 1.4em;
 	text-transform: none;
 	font-family: 'HelveticaNeueLTStd-BdCn';
+}
+
+.directions .panel-pane .pane-content h2 {
+  margin-top: 1em;
 }
 
 .directions .panel-pane li {
