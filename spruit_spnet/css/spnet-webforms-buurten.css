@@ -39,7 +39,7 @@
   padding: 0 0 1px 0;
 }
 .page-buurten-in-de-buurt .webform-client-form-379 {
-  font-size: 0.82em;
+  font-size: 1em;
 }
 @media screen and (min-width: 321px){
   .page-buurten-in-de-buurt .webform-client-form-379 {
@@ -50,6 +50,7 @@
   display: block;
   width: 100%;
   padding: .5em 0 .5em 4px;
+  font-size: 1.2em;
 }
 .page-buurten-in-de-buurt .webform-client-form-379 label {
 }
@@ -84,7 +85,7 @@
 .page-buurten-in-de-buurt .webform-client-form-379 .form-submit {
   background: #009245;
   border: 1px solid #009245;
-  font-size: 1.6em;
+  font-size: 1.5em;
   min-width: 120px;
 }
 .page-buurten-in-de-buurt .webform-client-form-379 .form-submit:hover {
