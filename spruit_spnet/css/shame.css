@@ -64,3 +64,12 @@
   height: 84px;
   overflow: hidden;	
 }
+
+/* Overzicht aantal deelnemers cursus */
+.view-id-cursusoverzicht_aantal_deelenemers {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
